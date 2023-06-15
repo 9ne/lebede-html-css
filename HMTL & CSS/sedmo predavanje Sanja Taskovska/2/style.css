@@ -1,0 +1,52 @@
+body {
+  height: 2000px;
+
+}
+
+div {
+  width: 150px;
+  height: 150px;
+}
+
+.first {
+  background-color: red;
+  position: static;
+  /* top: 100px; */
+  /* left: 100px; */
+  margin-left: 100px;
+}
+
+.second {
+  background-color: blue;
+  position: fixed;
+  top: 100px;
+  right: 100px;
+}
+
+.third {
+  background-color: yellow;
+  position: sticky;
+  top: 0;
+  z-index: 0;
+}
+
+.testElement {
+  width: 500px;
+  height: 500px;
+  background-color: aqua;
+  position: relative;
+  top: 100px;
+}
+
+.fourth {
+  background-color: green;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+}
+
+.fifth {
+  background-color: black;
+  position: absolute;
+  top: 50px;
+}

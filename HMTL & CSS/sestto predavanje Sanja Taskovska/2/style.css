@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.glaven-div {
+  width: 600px;
+  height: 600px;
+  background-color: rgba(27, 149, 16, 0.7);
+  /* border: 10px solid black; */
+  border-style: solid;
+  border-color: black;
+  border-top-color: red;
+  border-bottom: 5px solid blue;
+  border-width: 10px 5px;
+  border-width: 10px;
+  border-width: 10px 5px 3px 1px;
+  margin: 10px 5px;
+  padding: 50px;
+}
+
+.small-div {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  float: left;
+}
+
+.blue-div {
+  background-color: blue;
+}
+
+.green-div {
+  background-color: green;
+  float: left;
+}
+
+.yellow-div {
+  background-color: yellow;
+  float: right;
+}

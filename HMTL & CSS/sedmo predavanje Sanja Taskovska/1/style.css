@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e8e8e8;
+  line-height: 1.4;
+
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.single-item {
+  width: 350px;
+  background-color: #fff;
+  margin: auto;
+  box-shadow: 0px 0px 232px 25px rgba(0, 0, 0, 0.33);
+  border-radius: 10px 10px 0 0;
+}
+
+.single-item-top {
+  height: 250px;
+
+}
+
+.single-item-top img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
+}
+
+.single-item-bottom {
+  padding: 1rem;
+}
+
+.link-holder {
+  margin: 0 10px 0 0;
+  font-size: 14px;
+  color: #a2a2a2;
+}
+
+.title-description p {
+  font-size: 15px;
+  color: #888;
+  margin: 15px 0 0;
+}
+
+.title-description a h2 {
+  font-size: 28px;
+}
+
+.likes {
+  width: 100%;
+}
+
+.like-icon {
+  font-size: 20px;
+  color: blue;
+}
+
+.right {
+  float: right;
+}
+
+.tags a {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 0.1rem;
+}
+
+.tags a:hover {
+  border-radius: 5px;
+  color: rebeccapurple;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.title-description {
+  margin-bottom: 1rem;
+}

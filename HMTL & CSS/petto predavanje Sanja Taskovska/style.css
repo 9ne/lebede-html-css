@@ -1,0 +1,28 @@
+/* .title-2 {
+  color: blue;
+  font-size: 10px;
+}
+
+.title-3 {
+  color: rgb(66, 135, 245);
+  color: rgba(66, 135, 245, .5);
+  color: #de2569;
+}
+
+.text {
+  color: rgb(3, 252, 44);
+} */
+
+.main {
+  width: 500px;
+  height: 500px;
+  background: red;
+  color: #fff;
+}
+
+.secondary {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  color: #333;
+}

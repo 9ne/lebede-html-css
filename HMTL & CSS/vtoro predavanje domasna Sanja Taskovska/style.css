@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+  --page-1-color: #5a6dd0;
+  --page-2-color: #0080c7;
+  --page-3-color: #650000;
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1.3rem 2rem;
+  background: #333;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+
+
+/* Page 1 */
+#page-1 {
+  background-color: var(--page-1-color);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+#page-1 .main-heading {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+#page-1 .heading {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#page-1 .bio {
+  padding: 0 20rem;
+  margin-bottom: 2rem;
+}
+
+/* Page 2 */
+#page-2 {
+  background-color: var(--page-2-color);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#page-2 .list-of-books {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+#page-2 .heading {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+#page-2 .buttons .next {
+  margin-right: 1.5rem;
+}
+
+#page-2 .list-books-products {
+  display: flex;
+  gap: 2rem;
+}
+
+#page-2 .list-books-products a {
+  color: #f4f4f4;
+  text-decoration: underline;
+  transition: all 0.3s;
+}
+
+#page-2 .list-books-products a:hover {
+  color: #333;
+}
+
+
+/* Page 3 */
+#page-3 {
+  background-color: var(--page-3-color);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+#page-3 table {
+  background-color: #333;
+  border-radius: 5px;
+}
+
+#page-3 table th {
+  padding: 0.5rem;
+  width: 25rem;
+  align-items: center;
+}
+
+#page-3 .table .first-row {
+  background-color: #222;
+  border-radius: 10px;
+}
+
+#page-3 .table .row {
+  background-color: #555;
+  border-radius: 10px;
+}
